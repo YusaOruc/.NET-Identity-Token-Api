@@ -13,7 +13,7 @@ namespace IdentityApi.Controllers
         [Authorize(Roles = "Admin")]
         public string GetAdmin()
         {
-            return "You Hit Me Admin!";
+            return "You Hit Mee Admin!";
         }
         [HttpGet("User")]
         [Authorize(Roles = "User")]
